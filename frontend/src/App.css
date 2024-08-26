@@ -9,3 +9,25 @@
     position: relative; /* 절대 위치 조정을 위해 부모를 상대 위치로 설정 */
     background-color: #fff; /* 앱 배경색 설정 */
   }
+
+  .center-button {
+    padding: 10px 20px; /* 버튼 크기를 위한 여백 설정 */
+    font-size: 16px; /* 버튼 텍스트의 폰트 크기 설정 */
+    cursor: pointer; /* 버튼 위에 마우스를 올리면 포인터 커서로 변경 */
+    z-index: 1; /* 버튼이 배경 이미지 위에 표시되도록 설정 */
+    width: 148px;
+    height: 91px;
+    position: absolute; /* 위치를 조정하기 위해 절대 위치 설정 */
+    bottom: 314px; /* 아래쪽으로부터 314px 이동 */
+    right: 11px; /* 오른쪽으로부터 11px 이동 */
+    border: none; /* 테두리 제거 */
+    background-color: transparent; /* 배경을 투명하게 설정 */
+    outline: none; /* 버튼 클릭 시 윤곽선을 제거 */
+    transition: transform 0.1s ease, box-shadow 0.1s ease; /* 애니메이션 전환 설정 */
+}
+
+/* 버튼이 눌릴 때의 스타일 */
+.center-button:active {
+  color: gray; /* 클릭할 때 텍스트 색상을 어둡게 설정 */
+  transform: scale(0.98); /* 버튼이 살짝 작아지는 효과 */
+}

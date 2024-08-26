@@ -1,0 +1,28 @@
+.card-item3{
+    background-color: #a6bdf8;
+    border-radius:4.39px;
+    height:80px;
+    overflow: hidden;
+    width: 163px;
+}
+
+.card-item3 .card-rate{
+    height: 6px;
+    left:27px;
+    position: relative;
+    top:23px;
+    width: 18px;
+}
+
+.card-item3 .element{
+    color: #000000;
+    font-family: "Inter-Reqular", Helvetica;
+    font-size: 5.2px;
+    font-weight:400;
+    left:0;
+    letter-spacing: 0;
+    line-height:normal;
+    position: absolute;
+    top:0;
+    white-space: nowrap;
+}

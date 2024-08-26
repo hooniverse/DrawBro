@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import loading from'./loadingpage.png';
+import React, { useEffect } from 'react';
+import loading from './loadingpage.png';
 import './LoadingPage.css';
+
 const LoadingPage = ({ setLoadingComplete }) => {
   useEffect(() => {
     // 3초 후에 로딩 페이지를 숨깁니다.
@@ -14,7 +15,7 @@ const LoadingPage = ({ setLoadingComplete }) => {
 
   return (
     <div className="loading-container">
-      <img src={loading} alt="Loading" className="loading-image" />
+      {/* 이미지 태그 대신 배경 이미지로 설정 */}
     </div>
   );
 };
