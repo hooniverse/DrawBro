@@ -1,6 +1,11 @@
+# 호남 관광지 활성화를 위한 서비스, 그려브로
+
+![Pasted Graphic 1](https://github.com/user-attachments/assets/73fdd5cb-73d2-415d-9734-d121b9299cdc)
+
+
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
