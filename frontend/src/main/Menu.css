@@ -1,0 +1,21 @@
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .menu-item {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .menu-item.selected {
+    background-color: #4a90e2;
+    color: #fff;
+  }
