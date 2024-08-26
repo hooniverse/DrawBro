@@ -1,0 +1,11 @@
+.app-frame {
+    width: 359px;
+    height: 777px;
+    border: 1px solid #000; /* 테두리 색상과 두께를 설정 */
+    border-radius: 20px; /* 테두리를 둥글게 설정 */
+    overflow: hidden; /* 내부 콘텐츠가 프레임을 벗어나지 않도록 설정 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 그림자를 추가하여 부드러운 효과 */
+    margin: 20px auto; /* 중앙 정렬 */
+    position: relative; /* 절대 위치 조정을 위해 부모를 상대 위치로 설정 */
+    background-color: #fff; /* 앱 배경색 설정 */
+  }
